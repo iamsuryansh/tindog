@@ -1,0 +1,184 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat';
+}
+
+h2 {
+   font-size: 2.5rem;
+   line-height: 1.5;
+   font-weight: 900;
+}
+
+h3{
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+/* Heading */
+
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+  padding-bottom: 140px;
+  text-align: left;
+  /* position: relative; */
+  /* z-index: -1; */
+}
+
+
+
+.container-fluid {
+  padding: 3% 10%;
+
+}
+
+.rotated {
+  transform: rotate(25deg);
+  /* height: 100%; */
+  width: 60%;
+  /* margin-top: 20px; */
+  /* margin-left: 60px; */
+  position: absolute;
+  right: 30%;
+}
+
+.navbar {
+  /* margin-bottom: 50px; */
+  padding: 0 0 3rem 0;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+
+}
+
+.nav-item {
+  padding: 0 18px;
+
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  color: white;
+
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+#features {
+  position: relative;
+  /* z-index: 1; */
+  padding: 7%;
+  background-color: white;
+}
+
+.feature-list {
+  padding: 10px;
+  font-family: 'Montserrat';
+}
+
+
+
+.feature-icon {
+  font-size: 4rem;
+  margin: auto;
+  margin-bottom: 10px;
+  color: #ef8172;
+}
+.feature-icon:hover {
+  color: #ff4c68;
+}
+.feature-desc {
+  font-family: 'Montserrat';
+  font-weight: normal;
+  font-size: 16px;
+  color: #8f8f8f;
+}
+
+/* Testimonials */
+#testimonials {
+  background-color: #ef8172;
+  color: white;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+.testimonial-col {
+  padding: 3% 2%;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+
+}
+
+.press-image {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+@media (max-width: 988px) {
+  #title {
+    text-align: center;
+  }
+  .rotated {
+    position: static;
+    transform: rotate(0);
+  }
+
+}
+
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 15%;
+}
+
+.cta-h3 {
+  font-family: 'Monsterrat'
+  font-weight: 800;
+  color: white;
+  font-size: 3.1rem;
+}
+
+.card {
+  background-color: white;
+}
+
+.footer-i {
+  padding: 10px;
+  margin: 20px 0 20px;
+}
+
+.button-color {
+  background-color: #ff4c68;
+}
